@@ -50,7 +50,7 @@ header ul li a:hover{
 }
 .banner{
 	height: 60vh;
-	background-image: url('telkom.jpg');
+	background-image: url('../img/telkom.jpg');
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -173,4 +173,17 @@ footer {
 	100%{
 		transform: rotate(360deg);
 	}
+}.service .kolom-laporan{
+	margin:20px;
+	color:#717171;
+	line-height:25px;
+	font-size:20px;
+}
+.service .kolom-laporan .txt{
+	width:50%;
+	height:30px;
+	border:1px solid;
+	border-color:silver;
+	border-radius:3px;
+	margin-top:10px;
 }
